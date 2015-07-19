@@ -94,8 +94,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.mainHeader {
+  background-color: #b3d4fc;
+  color: white;
+  position: fixed;
+  clear: none;
+  width: 100%;
+}
+
 .mainNav li{
   display: inline-block;
+  text-decoration: none;
+}
+
+.pageNav li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.content{
+
 }
 
 .card {
