@@ -103,8 +103,13 @@ textarea {
      margin-left: 15%;
      padding: 1rem;
      width: 25rem;
-   }
+}
 
+.flexContainer{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
 
 
 
