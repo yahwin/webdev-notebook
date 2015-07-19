@@ -94,7 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   article{
+.card {
      background-color: darkseagreen;
      border: 1px solid gray;
      border-radius: 5px;
