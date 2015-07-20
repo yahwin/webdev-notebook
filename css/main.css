@@ -117,9 +117,9 @@ body{
 }
 
 .mainNav {
-  display: inline-block;
   float: right;
   word-wrap: normal;
+  display: inline-block;
   margin-top: -3rem;
   width: 40%
 }
@@ -130,6 +130,12 @@ body{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+li{
+display: inline;
+margin-left: 20px;
+ padding-left: 1rem;
+ }
 
 .pageNav li{
   display: inline-block;
