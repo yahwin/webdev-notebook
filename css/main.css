@@ -94,27 +94,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.mainHeader {
-  color: black;
-  position: fixed;
-  clear: none;
-  width: 100%;
+body{
+  font-size: 13px;
 }
 
-.mainNav li{
+
+/* Header & Navigation */
+.mainHeader {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  margin-left: 20px;
+  padding-top: 10px;
+  color: black;
+  clear: none;
+}
+
+.mainNav {
   display: inline-block;
-  text-decoration: none;
-  font-size: .5em
+  float: right;
+  word-wrap: normal;
+  margin-top: -3rem;
+  width: 40%
+}
+
+.flexHeader{
+  display: flex;
+  justify-content: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pageNav li{
   display: inline-block;
-  text-decoration: none;
-  font-size: .5em;
+  justify-content: center;
 }
+
+/* Div & Content */
 
 .content{
   padding-top: 20rem;
+}
+
+.flexContainer{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 
 .card {
@@ -128,11 +159,7 @@ textarea {
      width: 25rem;
 }
 
-.flexContainer{
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
-}
+/* Footer */
 
 .mainFooter{
   display: flex;
