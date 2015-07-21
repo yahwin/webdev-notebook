@@ -133,14 +133,12 @@ a{
   background-color: #1F60FF;
 }
 
-.mainHeader p{
-  font-size: 50%;
-}
-
 .mainNav {
-  float: right;
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   margin-top: -3rem;
+  margin-right: 1rem;
 }
 
 li{
@@ -152,7 +150,7 @@ li{
 
 .pageNav li{
   display: inline-block;
-  float: left;
+  float: center;
 }
 
 /* Div & Content */
@@ -160,8 +158,16 @@ h2{
   color: black;
 }
 
+h2:before {
+  display: block;
+  content: "";
+  height: 5em;
+  margin-top: -4em;
+  visibility: hidden;
+}
+
 .content{
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .flexContainer{
