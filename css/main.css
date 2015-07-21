@@ -9,7 +9,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+/*
+* background color: #3A73FF
+* card: #0034B2
+* header: #1F60FF
+* link: #FFD97E
+*/
 html {
     color: #222;
     font-size: 1em;
@@ -95,7 +100,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+  background-color: #0034B2;
+}
+
+h1{
+  font-size: 200%;
+  margin-top: -1px;
+}
+
+a{
+  color: #B2A47F;
+  text-decoration: none;
 }
 
 
@@ -110,18 +127,24 @@ body{
   width: 100%;
   left: 0;
   z-index: 100;
-  margin-left: 20px;
+  padding-left: 20px;
   padding-top: 10px;
   color: black;
   clear: none;
+  background-color: #1F60FF;
+}
+
+.mainHeader p{
+  font-size: 50%;
 }
 
 .mainNav {
+  display: flex;
   float: right;
-  word-wrap: normal;
-  display: inline-block;
+  flex-wrap: wrap;
   margin-top: -3rem;
-  width: 40%
+  width: 40%;
+  justify-content: flex-start;
 }
 
 .flexHeader{
@@ -132,10 +155,11 @@ body{
 }
 
 li{
-display: inline;
-margin-left: 20px;
- padding-left: 1rem;
- }
+  display: flex;
+  margin-left: 20px;
+  padding-left: 1rem;
+  font-size: .7em;
+}
 
 .pageNav li{
   display: inline-block;
@@ -143,6 +167,9 @@ margin-left: 20px;
 }
 
 /* Div & Content */
+h2{
+  color: black;
+}
 
 .content{
   padding-top: 20rem;
@@ -155,8 +182,8 @@ margin-left: 20px;
 }
 
 .card {
-     background-color: darkseagreen;
-     border: 1px solid gray;
+     background-color: #3A73FF;
+     border: 1px solid #FFD97E;
      border-radius: 5px;
      color: black;
      margin-top: 2rem;
