@@ -144,7 +144,7 @@ a{
   flex-wrap: wrap;
   margin-top: -3rem;
   width: 40%;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .flexHeader{
@@ -156,7 +156,7 @@ a{
 
 li{
   display: flex;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-left: 1rem;
   font-size: .7em;
 }
@@ -172,7 +172,7 @@ h2{
 }
 
 .content{
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .flexContainer{
@@ -196,7 +196,7 @@ h2{
 
 .mainFooter{
   display: flex;
-  background-color: #080400;
+  background-color: #1F60FF;
   color: white;
   bottom: 0;
   padding: 10px;
