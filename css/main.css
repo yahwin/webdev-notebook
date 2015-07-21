@@ -125,34 +125,27 @@ a{
   position: fixed;
   width: 100%;
   white-space: nowrap;
-  height: 7em;
+  height: 7.5em;
   top: 0;
   left: 0;
   right: 0;
   color: black;
   background-color: #006EFF;
+  font-size: .8em;
 }
 
 .mainNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  float: right;
+  display: inline ;
   margin-top: -3rem;
-  margin-right: 1rem;
-  padding: 0;
-}
-
-li{
-  display: flex;
-  margin-left: 10px;
-  padding-left: 1rem;
-  font-size: .7em;
 }
 
 .pageNav li{
   display: inline-block;
-  float: center;
-  padding: 0;
+}
+
+h1{
+  font-size: 200%;
 }
 
 /* Div & Content */
@@ -181,12 +174,12 @@ h2:before {
 .card {
      background-color: #4796FF;
      border: 1px solid #FFD97E;
-     border-radius: 5px;
+     border-radius: 10px;
      color: black;
      margin-top: 2rem;
-     margin-left: 15%;
+     margin-left: 20px;
      padding: 1rem;
-     width: 25rem;
+     width: 22rem;
 }
 
 /* Footer */
@@ -294,7 +287,7 @@ h2:before {
    ========================================================================== */
 @media screen and (max-width: 800px) {
    h1 {
-       font-size: 1em;
+       font-size: 1.5em;
    }
    .mainNav {
        float: none;
