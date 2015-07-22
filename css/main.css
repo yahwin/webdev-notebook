@@ -174,8 +174,8 @@ h2:before {
 
 .flexContainer{
   display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  /*justify-content: space-around;*/
 }
 
 .card {
