@@ -10,10 +10,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 /*
-* background color: #3A73FF
+* primary color: #006EFF
+* text color:
+* background color: #FFF3DC
+* accent color: FFD97E
 * card: #0034B2
-* header: #1F60FF
-* link: #FFD97E
+* error color: #1F60FF
+* warning color #FFD97E
 */
 html {
     color: #222;
@@ -117,14 +120,11 @@ a{
 
 
 /* Header & Navigation */
+
 .mainHeader {
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
   position: fixed;
   width: 100%;
-  white-space: nowrap;
+  white-space: normal;
   height: 7.5em;
   top: 0;
   left: 0;
@@ -141,7 +141,9 @@ a{
 }
 
 .pageNav li{
-  display: inline-block;
+  display: inline;
+  top: 2%;
+  left: 30%;
 }
 
 h1{
@@ -175,6 +177,7 @@ h2:before {
      background-color: #4796FF;
      border: 1px solid #FFD97E;
      border-radius: 10px;
+     box-shadow: 5px 5px 5px black;
      color: black;
      margin-top: 2rem;
      margin-left: 20px;
@@ -187,7 +190,7 @@ h2:before {
 .mainFooter{
   display: flex;
   background-color: #006EFF;
-  color: white;
+  color: black;
   bottom: 0;
   padding: 10px;
   justify-content: center;
@@ -286,6 +289,10 @@ h2:before {
    Modify as content requires.
    ========================================================================== */
 @media screen and (max-width: 800px) {
+   header{
+     color: yellow;
+   }
+
    h1 {
        font-size: 1.5em;
    }
