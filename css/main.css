@@ -161,6 +161,7 @@ h1{
 /* >>>>>>>>> Div & Content <<<<<<<< */
 h2{
   color: black;
+  padding-left: 1rem;
 }
 
 h2:before {
@@ -173,6 +174,7 @@ h2:before {
 
 h3{
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 .content{
