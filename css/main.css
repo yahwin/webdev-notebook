@@ -139,6 +139,10 @@ h1{
   display: inline;
 }
 
+.noPadding {
+  padding: 0 0 0 0;
+}
+
 header a{
   background-color: #4796FF;
   border: 1px solid #FFD97E;
